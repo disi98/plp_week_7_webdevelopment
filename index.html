@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <div class="logo"><h1>John Doe</h1></div>
+  <ul class="nav-links">
+    <li><a href="#profile">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#preferences">Preferences</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button id="theme-toggle">Toggle Theme</button>
+</nav>
+
+<section id="profile">
+    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150" alt="Profile Picture" id="profile-pic">
+    <p class="attribution">Photo by <a href="https://www.pexels.com/photo/220453/" target="_blank" rel="noopener">Pexels</a></p>
+    <button id="animate-btn">Animate Profile</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Data Analyst skilled in transforming data into actionable insights using Python, R, and SQL.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>R</li>
+      <li>SQL</li>
+      <li>Tableau</li>
+      <li>Power BI</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="project-card">
+    <h3>Sales Dashboard</h3>
+    <p>Interactive sales dashboard built with Python and Tableau.</p>
+    <button class="details-btn">View Details</button>
+    <div class="project-details">This dashboard visualizes quarterly sales performance and trends.</div>
+  </div>
+  <div class="project-card">
+    <h3>Customer Segmentation</h3>
+    <p>Clustering analysis using R and k-means.</p>
+    <button class="details-btn">View Details</button>
+    <div class="project-details">Segmented customers based on purchasing behavior for targeted marketing.</div>
+  </div>
+</section>
+
+<section id="preferences">
+  <h2>Preferences</h2>
+  <label><input type="radio" name="font-size" value="small"> Small Font</label>
+  <label><input type="radio" name="font-size" value="medium"> Medium Font</label>
+  <label><input type="radio" name="font-size" value="large"> Large Font</label>
+  <button id="save-prefs-btn">Save Preferences</button>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: john.doe@example.com</p>
+</section>
+
+<footer>
+  <div class="social-links">
+    <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+  </div>
+  <p>&copy; 2025 John Doe. Built with ♥.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
